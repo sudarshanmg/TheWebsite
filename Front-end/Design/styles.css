@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/*scrollbar*/
+body::-webkit-scrollbar{
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track{
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #6649B8 ;
+  border-radius: 10px;
+}
+
+/* Horizontal navbar */
+
+.navbar{
+  background-color: #03506F;
+
+}
+
+
+
+/* Vertical navbar */
+
+.vertical{
+  background-color: #1597BB;
+  width: 5rem;
+  float: left;
+  top:0;
+  position: sticky;
+  height: 100vh;
+
+}
+
+.vertical-link{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+.vertical-link:first-child{
+  margin-top: 4rem;
+}
+
+
+.ver-item{
+  color: white;
+  padding: 10px 5px;
+  outline: 3px dotted white;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+
+.ver-item:hover{
+  color: black;
+  background-color: white;
+}
+
+/* Main content */
+
+main{
+  margin-left: 6rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+p{
+  margin-top: 1rem;
+}
